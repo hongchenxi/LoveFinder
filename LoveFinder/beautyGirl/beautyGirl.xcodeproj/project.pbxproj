@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		A0600A0C19FAB0D50007D1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0600A0B19FAB0D50007D1D9 /* AppDelegate.swift */; };
 		A0600A0E19FAB0D50007D1D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0600A0D19FAB0D50007D1D9 /* ViewController.swift */; };
-		A0600A1119FAB0D50007D1D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0600A0F19FAB0D50007D1D9 /* Main.storyboard */; };
 		A0600A1319FAB0D50007D1D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0600A1219FAB0D50007D1D9 /* Images.xcassets */; };
 		A0600A1619FAB0D50007D1D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0600A1419FAB0D50007D1D9 /* LaunchScreen.xib */; };
 		A0600A2219FAB0D50007D1D9 /* beautyGirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0600A2119FAB0D50007D1D9 /* beautyGirlTests.swift */; };
+		A0600A5D19FAB6550007D1D9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0600A5C19FAB6550007D1D9 /* SecondViewController.swift */; };
+		A0600A5F19FAC3DD0007D1D9 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0600A5E19FAC3DD0007D1D9 /* Storyboard.storyboard */; };
+		A0600A6119FACC4A0007D1D9 /* ViewControllerlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0600A6019FACC490007D1D9 /* ViewControllerlExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +32,14 @@
 		A0600A0A19FAB0D50007D1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0600A0B19FAB0D50007D1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0600A0D19FAB0D50007D1D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A0600A1019FAB0D50007D1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0600A1219FAB0D50007D1D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A0600A1519FAB0D50007D1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A0600A1B19FAB0D50007D1D9 /* beautyGirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beautyGirlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0600A2019FAB0D50007D1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0600A2119FAB0D50007D1D9 /* beautyGirlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beautyGirlTests.swift; sourceTree = "<group>"; };
+		A0600A5C19FAB6550007D1D9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A0600A5E19FAC3DD0007D1D9 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A0600A6019FACC490007D1D9 /* ViewControllerlExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerlExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				A0600A0B19FAB0D50007D1D9 /* AppDelegate.swift */,
 				A0600A0D19FAB0D50007D1D9 /* ViewController.swift */,
-				A0600A0F19FAB0D50007D1D9 /* Main.storyboard */,
 				A0600A1219FAB0D50007D1D9 /* Images.xcassets */,
 				A0600A1419FAB0D50007D1D9 /* LaunchScreen.xib */,
 				A0600A0919FAB0D50007D1D9 /* Supporting Files */,
+				A0600A5C19FAB6550007D1D9 /* SecondViewController.swift */,
+				A0600A5E19FAC3DD0007D1D9 /* Storyboard.storyboard */,
+				A0600A6019FACC490007D1D9 /* ViewControllerlExtension.swift */,
 			);
 			path = beautyGirl;
 			sourceTree = "<group>";
@@ -192,9 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0600A1119FAB0D50007D1D9 /* Main.storyboard in Resources */,
 				A0600A1619FAB0D50007D1D9 /* LaunchScreen.xib in Resources */,
 				A0600A1319FAB0D50007D1D9 /* Images.xcassets in Resources */,
+				A0600A5F19FAC3DD0007D1D9 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0600A5D19FAB6550007D1D9 /* SecondViewController.swift in Sources */,
+				A0600A6119FACC4A0007D1D9 /* ViewControllerlExtension.swift in Sources */,
 				A0600A0E19FAB0D50007D1D9 /* ViewController.swift in Sources */,
 				A0600A0C19FAB0D50007D1D9 /* AppDelegate.swift in Sources */,
 			);
@@ -236,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A0600A0F19FAB0D50007D1D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0600A1019FAB0D50007D1D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A0600A1419FAB0D50007D1D9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -407,6 +407,7 @@
 				A0600A2719FAB0D50007D1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0600A2819FAB0D50007D1D9 /* Build configuration list for PBXNativeTarget "beautyGirlTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				A0600A2A19FAB0D50007D1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
