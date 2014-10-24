@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C0B83F7-C541-479D-905E-BC4A249D8D1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LoveFinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0CFBBD0C6BC65A2438A542B7BCFEDE5CE5B41928</key>
+		<string>https://github.com/hongchenxi/LoveFinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LoveFinder/LoveFinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0CFBBD0C6BC65A2438A542B7BCFEDE5CE5B41928</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hongchenxi/LoveFinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0CFBBD0C6BC65A2438A542B7BCFEDE5CE5B41928</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0CFBBD0C6BC65A2438A542B7BCFEDE5CE5B41928</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LoveFinder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
